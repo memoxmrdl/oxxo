@@ -1,6 +1,7 @@
 <?php
-	function get_tienda(nombre) {
-		switch (nombre) {
+
+	function get_tienda($nombre) {
+		switch ($nombre) {
 			case 'CLJMIWPRO': return "CAMINO_REAL"; break;
 			case 'CLJFOSPRO': return "SAN_FERNANDO"; break;
 			case 'CLJFGBPRO': return "DIAZ_MIRON"; break;
@@ -118,6 +119,8 @@
 			case 'CLJPHEPRO': return "PALENQUE"; break;
 			case 'CLJYMOPRO': return "REFORMA"; break;
 			case 'CLJPOLPRO': return "LA_PAROTA"; break;
+			default: return "UNKNOW"; break;
 		}
 	}
+
 ?>
