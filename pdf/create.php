@@ -1,5 +1,6 @@
 <?php
 require_once('../lib/html2pdf_v4.03/html2pdf.class.php');
+require_once('modulo_tiendas.php');
 ob_start();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -351,8 +352,9 @@ body {
 </html>
 <?php
 	$content = ob_get_clean();	
-	//$name = str_replace('/','',$_POST['fecha']);
+	$computername = get_tienda($_ENV["COMPUTERNAME"]);
 	$name = date('dmYHis');
+  $name = $computername."_".$name;
 	
     try
     {
@@ -360,7 +362,7 @@ body {
         $html2pdf->pdf->SetDisplayMode('fullpage');
         $html2pdf->writeHTML($content);
         $html2pdf->Output("pdfarchive/$name.pdf", 'F');
-		//file_put_contents("pdfarchive/$name.html", $content);
+		
 		header("Location: ../index.php");
     }
     catch(HTML2PDF_exception $e) {
