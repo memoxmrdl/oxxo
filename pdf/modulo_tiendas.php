@@ -87,7 +87,37 @@
 			case 'CLJBLFPRO': return "S.E.P"; break;
 			case 'CLJJUFPRO': return "CLUB_SANTIAGO"; break;
 			case 'CLJEBMPRO': return "MILENIO"; break;
-			case 'CLJLKQPRO': return 
+			case 'CLJLKQPRO': return "VILLA_DEL_MAR"; break;
+			case 'CLJDDCPRO': return "SAYULA_CENTRO"; break;
+			case 'CLJDDFPRO': return "GRULLO_CENTRO"; break;
+			case 'CLJJXRPRO': return "MAZAMITLA_CRUCERO"; break;
+			case 'CLJTGEPRO': return "MAZAMITLA_GALEANA"; break;
+			case 'CLJIDQPRO': return "MORELOS"; break;
+			case 'CLJWAGPRO': return "SENDEROS"; break;
+			case 'CLJSMCPRO': return "CASETA_SAN_MARCOS"; break;
+			case 'CLJPJYPRO': return "CASETA_CD_GUZMAN_PONIENTE"; break;
+			case 'CLJSMDPRO': return "CASETA_CD_GUZMAN"; break;
+			case 'CLJFYPPRO': return "EL_TAJO"; break;
+			case 'CLJHSUPRO': return "ZAPOTILTIC_CENTRO"; break;
+			case 'CLJWHMPRO': return "CONSTITUCION"; break;
+			case 'CLJFXUPRO': return "CLJFXUPRO"; break;
+			case 'CLJGWMPRO': return "CRUZ_DE_TECOMAN"; break;
+			case 'CLJYMPPRO': return "CAMPUS_USU"; break;
+			case 'CLJJSBPRO': return "CASIMIRO_CENTRO"; break;
+			case 'CLJZNJPRO': return "LA_GRANA"; break;
+			case 'CLJAAXPRO': return "TECOMAN_CENTRO"; break;
+			case 'CLJJGCPRO': return "AGENCIAS"; break;
+			case 'CLJMSRPRO': return "ESCOBEDO"; break;
+			case 'CLJMSMPRO': return "SERAFIN_VAZQUEZ"; break;
+			case 'CLJKFXPRO': return "TORRES"; break;
+			case 'CLJAFJPRO': return "CUATRO_CAMINOS"; break;
+			case 'CLJMSQPRO': return "AQUILES_SERDAN"; break;
+			case 'CLJMSLPRO': return "MELAQUE_PLAYA"; break;
+			case 'CLJBXFPRO': return "CRUZ_ROJA"; break;
+			case 'CLJRWTPRO': return "PROGRESO"; break;
+			case 'CLJPHEPRO': return "PALENQUE"; break;
+			case 'CLJYMOPRO': return "REFORMA"; break;
+			case 'CLJPOLPRO': return "LA_PAROTA"; break;
 		}
 	}
 ?>
