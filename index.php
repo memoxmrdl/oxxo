@@ -164,7 +164,7 @@
       7:"Olas Altas CLA 50OFJ",
       8:"Santiago CLA 50STW",
       9:"Barra Malecon CLA 50VUK",
-      10:"Barra Central CLA	50VUP",
+      10:"Barra Central CLA 50VUP",
       11:"Santa Cruz CLA 50ZQJ",
       12:"El Aguacate CLA 50ZRJ"
     },
